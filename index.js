@@ -1,0 +1,18 @@
+function displayTypedText()
+{	
+	if(document.getElementById("putText").value.length==0)
+	{
+		var s="please enter something";
+	
+		document.getElementById("ifEmpty").innerHTML=s;
+		
+	}
+	
+
+	else
+	{
+	document.getElementById("getText").innerHTML=document.getElementById("putText").value;
+	
+	document.getElementById("putText").value="";
+	}
+}
